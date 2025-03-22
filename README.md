@@ -35,9 +35,9 @@ class Page extends BaseController
     {
         $data = [
             'title'   => 'Halaman Kontak',
-            'email'   => 'taufikhidayat3621@gmail.com',
-            'alamat'  => 'Sukatani, Cikarang',
-            'telepon' => '+62 812-8627-5726'
+            'email'   => 'fakhriafif788@gmail.com',
+            'alamat'  => 'Telaga Murni, Bekasi',
+            'telepon' => '+62 8997525289'
         ];
 
         return view('contact', $data);
