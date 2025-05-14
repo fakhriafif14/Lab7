@@ -67,7 +67,7 @@ class Page extends BaseController
 ```
 ### Halaman About
 
-![image](ss/ss1.png)
+![image](ss2/ss1.png)
 
 ### Halaman Kontak
 
@@ -85,7 +85,7 @@ class Page extends BaseController
 
 - Hapus (#) pada text konfigurasi database(.env)
 
-![image](ss/ss3.png)
+![image](ss2/ss3.png)
 
 
 #### Membuat Database: Studi Kasus Data Artikel
@@ -112,77 +112,77 @@ CREATE TABLE artikel (
 
 - Membuat Model file baru pada direktori app/Models dengan nama ArtikelModel.php
 
-![image](ss/ss4.png)
+![image](ss2/ss4.png)
 
 - Membuat Controller dengan nama Artikel.php pada direktori app/Controllers.
 
-![image](ss/ss5.png)
+![image](ss2/ss5.png)
 
 - Membuat View, buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file baru
 dengan nama index.php.
 
-![image](ss/ss6.png)
+![image](ss2/ss6.png)
 
 - Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
 
-![image](ss/ss7.png)
+![image](ss2/ss7.png)
 
 - Membuat Tampilan Detail Artikel, tambahkan fungsi baru pada Controller Artikel dengan nama view().
 
-![image](ss/ss8.png)
+![image](ss2/ss8.png)
 
 - Membuat View Detail, buatview baru untuk halaman detail dengan nama app/views/artikel/detail.php
 
-![image](ss/ss9.png)
+![image](ss2/ss9.png)
 
 - Membuat Routing untuk artikel detail, buka Kembali file app/config/Routes.php, kemudian tambahkan routing untuk artikel detail
 
-![image](ss/ss10.png)
+![image](ss2/ss10.png)
 
 - Membuat Menu Admin untuk proses CRUD data artikel. Buat method baru pada Controller
 Artikel dengan nama admin_index().
 
-![image](ss/ss11.png)
+![image](ss2/ss11.png)
 
 - Selanjutnya buat view di app/Views/artikel untuk tampilan admin dengan nama admin_index.php
 
-![image](ss/ss12.png)
+![image](ss2/ss12.png)
 
 - Tambahkan routing untuk menu admin seperti berikut:
 
-![image](ss/ss13.png)
+![image](ss2/ss13.png)
 
 - Akses menu admin dengan url http://localhost:8080/admin/artikel
 
-![image](ss/ss14.png)
+![image](ss2/ss14.png)
 
 - Menambah Data Artikel, tambahkan fungsi/method baru pada Controller Artikel dengan nama add()
 
-![image](ss/ss15.png)
+![image](ss2/ss15.png)
 
 - Kemudian buat view untuk form tambah dengan nama form_add.php
 
-![image](ss/ss16.png)
+![image](ss2/ss16.png)
 
 - tampilan di http://localhost:8080/admin/artikel/add
 
-![image](ss/ss17.png)
+![image](ss2/ss17.png)
 
 - Mengubah Data, tambahkan fungsi/method baru pada app/Controller/Artikel dengan nama edit()
 
-![image](ss/ss18.png)
+![image](ss2/ss18.png)
 
 - Kemudian buat file view di lokasi file Views/artikel/form_edit.php
 
-![image](ss/ss19.png)
+![image](ss2/ss19.png)
 
 - tampilan di http://localhost:8080/admin/artikel/edit/1
 
-![image](ss/ss20.png)
+![image](ss2/ss20.png)
 
 - Menghapus data, tambahkan fungsi/method baru pada app/Controller/Artikel dengan nama delete().
 
-![image](ss/ss21.png)
+![image](ss2/ss21.png)
 
 
 ## Praktikum 3
@@ -207,12 +207,12 @@ improvisasi.
 
 - Buat file main.php di dalam folder layout dengan kode berikut:
 
-![image](ss/ss22.png)
+![image](ss2/ss22.png)
 
 ### Modifikasi File View
 - Ubah app/Views/home.php agar sesuai dengan layout baru:
 
-![image](ss/ss23.png)
+![image](ss2/ss23.png)
 
 ### Membuat Class View Cell
 
@@ -220,7 +220,7 @@ improvisasi.
 
 - Buat file ArtikelTerkini.php di dalam app/Cells/ dengan kode berikut:
 
-![image](ss/ss24.png)
+![image](ss2/ss24.png)
 
 ### Membuat View untuk View Cell
 
@@ -228,7 +228,7 @@ improvisasi.
 
 - Buat file artikel_terkini.php di dalam app/Views/components/ dengan kode berikut:
 
-![image](ss/ss25.png) 
+![image](ss2/ss25.png) 
 
 ## Manfaat Utama Penggunaan View Layout dalam Pengembangan Aplikasi
 
@@ -251,6 +251,6 @@ Secara sederhana, View biasa lebih cocok untuk menampilkan halaman utama, sedang
 
 - Tampilan di http://localhost:8080/
 
-![image](ss/ss26.png) 
+![image](ss2/ss26.png) 
 
 # SELESAI
