@@ -71,7 +71,7 @@ class Page extends BaseController
 
 ### Halaman Kontak
 
-![image](ss/ss2.png)
+![image](ss2/ss2.png)
 
 
 
